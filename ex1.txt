@@ -1,0 +1,11 @@
+MacBook-Pro-NURIA:week10 nuriya$ ln _ex1.txt _ex1_1.txt
+ln: _ex1.txt: No such file or directory
+MacBook-Pro-NURIA:week10 nuriya$ ln _ex1.txt _ex1_2.txt
+ln: _ex1.txt: No such file or directory
+MacBook-Pro-NURIA:week10 nuriya$ ls -i _ex1.txt
+13599726 _ex1.txt
+MacBook-Pro-NURIA:week10 nuriya$ ls -i _ex1_1.txt
+13599726 _ex1_1.txt
+MacBook-Pro-NURIA:week10 nuriya$ ls -i _ex1_2.txt
+13599726 _ex1_2.txt
+MacBook-Pro-NURIA:week10 nuriya$ 

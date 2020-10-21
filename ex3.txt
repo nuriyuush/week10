@@ -1,0 +1,16 @@
+MacBook-Pro-NURIA:week10 nuriya$ touch _ex3.txt
+MacBook-Pro-NURIA:week10 nuriya$ ls -l _ex3.txt
+-rw-r--r--  1 nuriya  staff  0 Oct 21 22:49 _ex3.txt
+MacBook-Pro-NURIA:week10 nuriya$ chmod a-x _ex3.txt
+MacBook-Pro-NURIA:week10 nuriya$ ls -l _ex3.txt
+-rw-r--r--  1 nuriya  staff  0 Oct 21 22:49 _ex3.txt
+MacBook-Pro-NURIA:week10 nuriya$ chmod uo+rwx _ex3.txt
+MacBook-Pro-NURIA:week10 nuriya$ ls -l _ex3.txt
+-rwxr--rwx  1 nuriya  staff  0 Oct 21 22:49 _ex3.txt
+MacBook-Pro-NURIA:week10 nuriya$ chmod g=u _ex3.txt
+MacBook-Pro-NURIA:week10 nuriya$ ls -l _ex3.txt
+-rwxrwxrwx  1 nuriya  staff  0 Oct 21 22:49 _ex3.txt
+
+// 660 for ex3.txt means: read & write by owner & group;
+// 775 for ex3.txt means: read, write & execute can owner & group, only read & execute can other users; 
+// 777 for ex3.txt means: read, write & execute are available for all users. 

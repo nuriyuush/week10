@@ -1,0 +1,8 @@
+MacBook-Pro-NURIA:week10 nuriya$ link week01/file.txt _ex2.txt
+MacBook-Pro-NURIA:week10 nuriya$ ls -i _ex2.txt
+13600560 _ex2.txt
+MacBook-Pro-NURIA:week10 nuriya$ find . -inum 13600560
+./_ex2.txt
+MacBook-Pro-NURIA:week10 nuriya$ find . -inum 13600560 -exec rm {} \;
+MacBook-Pro-NURIA:week10 nuriya$ find . -inum 13600560
+MacBook-Pro-NURIA:week10 nuriya$ 
